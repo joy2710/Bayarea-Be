@@ -1,0 +1,21 @@
+{
+    "collection": "@nestjs/schematics",
+    "sourceRoot": "src",
+    "compilerOptions": {
+        "assets": [
+            {
+                "include": "common/helpers/mail/templates/**/*",
+                "watchAssets": true
+            },
+            {
+                "include": "common/helpers/pdf-generator/templates/**/*",
+                "watchAssets": true
+            },
+            {
+                "include": "CMS/pdf-invoice/**/*.ejs",
+                "watchAssets": true
+
+            }
+        ]    
+    }
+}
